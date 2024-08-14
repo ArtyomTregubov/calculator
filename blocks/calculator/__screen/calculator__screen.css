@@ -1,0 +1,15 @@
+.calculator__screen {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    padding: 0 8px;
+    background-color: #EBECF0;
+    text-shadow: 1px 1px 0 #fff;
+    box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #fff;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    font-size: 48px;
+}

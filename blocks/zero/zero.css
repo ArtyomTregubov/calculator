@@ -1,0 +1,9 @@
+.zero {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    align-items: center;
+    width: 129px;
+}

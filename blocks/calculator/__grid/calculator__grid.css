@@ -1,0 +1,8 @@
+.calculator__grid {
+    width: min(100%);
+    margin: 25px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(62px, 1fr));
+    grid-gap: 25px 17px;
+    justify-items: center;
+}
