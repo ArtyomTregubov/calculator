@@ -3,8 +3,8 @@ let b = '';
 let sign ='';
 let finish = false;
 
-const digit = ['0','2','3','4','5','6','7','8','9',','];
-const action = ['-', '+','x','/'];
+const digit = ['0','1','2','3','4','5','6','7','8','9',','];
+const action = ['-','+','x','/','%'];
 
 const out = document.querySelector('.calculator__screen');
 
@@ -78,6 +78,10 @@ document.querySelector('.calculator__grid').onclick = (event) => {
                 }
                 a = a / b;
                 break;
+
+            case "%":
+                a = (a * b) / 100;
+                break;    
         }
 
         finish = true;
